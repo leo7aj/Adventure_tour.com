@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+.header{
+    width:100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(background.png);
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
+nav{
+    padding:30px 3%;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10 30;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    font-size: 15px;
+}
+.logo{
+    color:#fff;
+    font-size: 45px;
+    cursor: pointer;
+
+}
+.menu-icon{
+    font-size: 35px;
+    color:#fff;
+    cursor: pointer;
+    margin-left: 10px
+}
+
+.social-links a{
+    margin:10px;
+    text-decoration: none; 
+    color:#fff;
+}
+.social-links{
+    transform: rotate(90deg) translate(-100%);
+    position: absolute;
+    transform-origin:left;
+    margin-left:5%;
+    bottom: 0;
+}
+.line{
+    position:absolute;
+    background-color: gray;
+    top:0;
+    bottom:0;
+    width:2px;
+    left:10%
+}
+
+
+.row{
+    width:75%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    ;
+    color:#fff;
+    margin-top: 8%;
+
+}
+
+.row .content span{
+    letter-spacing: 3px;
+    margin:rem 0
+}
+
+.row .content h1{
+    font-size: 70px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.row .info{
+display: flex;
+flex-direction: column;
+}
+.row .info span{
+    margin:15px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.fa-sun , .fa-map-marker, .fa-stopwatch{
+    font-size: 18px !important;
+    margin-right: 10px !important;
+}
+.fa-sun{
+  font-size: 30px!important;   
+  margin-left:-11px
+}
+.inof .active {
+    font-size: 30px;
+}
+.info{
+    position: relative;
+}
+.info::before{
+    content: '';
+    width:2px;
+    height:100%;
+    background:rgba(255,255,255,.6);
+    position: absolute;
+    left:-30px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    position: absolute;
+    bottom:30px;
+    margin-left:12.5%;
+}
+.fa-chevron-left
+{
+    color:white;
+    font-size: 30px;
+}
+.fa-chevron-right
+{
+    color:white;
+    font-size: 30px;
+}
